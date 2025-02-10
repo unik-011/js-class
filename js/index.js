@@ -1,10 +1,13 @@
-console.log("hello");
+console.log("Hello World");
 
-const person = "unique";
-console.log(person);
+var name = "unique";
+console.log(name);
 
-let person1 = "sadip";
-console.log(person1);
+const user = prompt("what is your name");
+const greeting = "Welcome back," + " " + user;
+alert(greeting);
 
-var person2 = "saugat";
-console.log(person2);
+const qsN = confirm("are you 18+?");
+console.log(qsN);
+
+alert(`Welcome back ${user}`);
