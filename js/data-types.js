@@ -15,25 +15,25 @@ Object
 
 */
 
-// const string = "my name is unique bhandari."; //word character sentence paragraph
-// const pi = 3.14;
-// const largenumber = BigInt(314);
-// console.log(largenumber);
+const string = "my name is unique bhandari."; //word character sentence paragraph
+const pi = 3.14;
+const largenumber = BigInt(314);
+console.log(largenumber);
 
-// const value = "13";
-// console.log(typeof value); //checking value
+const value = "13";
+console.log(typeof value); //checking value
 
-// const num = Number(value); //type conversion
-// console.log(num);
-// console.log(typeof num);
+const num = Number(value); //type conversion
+console.log(num);
+console.log(typeof num);
 
-// number to string
+number to string
 
-// const number = "13";
+const number = "13";
 
-// const actualval = String(number);
-// console.log(number);
-// console.log(typeof number);
+const actualval = String(number);
+console.log(number);
+console.log(typeof number);
 
 const num1 = prompt("enter the first number");
 const num2 = prompt("enter the second number");

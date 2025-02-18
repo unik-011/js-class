@@ -41,4 +41,34 @@
 // console.log(volume({ length: "12", breadth: "10", height: "11" }));
 
 //IIFES FUNCTION (Immediately invoked functional expresion
-=
+
+//closure function
+
+// const counter = () => {
+//   let count = 1; //local scope
+//   return () => { //count++; implicit function
+//     const increment = count + 1; // explicit function
+//     return increment;
+//   };
+// };
+
+// const counterA = counter();
+// const counterB = counter();
+
+// console.log(counterA());
+// console.log(counterA());
+// console.log(counterA());
+
+// console.log(counterB());
+// console.log(counterB());
+
+//callback function
+
+const taxCal = (item) => 0.13 * item;
+
+const cart = (items, calculateTaxFn) => {
+  return calculateTaxFn(items);
+};
+
+const tax = (100, taxCal);
+console.log(tax);
