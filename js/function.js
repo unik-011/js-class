@@ -70,5 +70,5 @@ const cart = (items, calculateTaxFn) => {
   return calculateTaxFn(items);
 };
 
-const tax = (100, taxCal);
+const tax = cart(100, taxCal);
 console.log(tax);
