@@ -23,14 +23,14 @@
 // function call
 // console.log(sum(1, 2));
 
-// default function
+default function
 
-// const greet = (name = "user") => {
-//   return `welcome ${name}`;
-// };
+const greet = (name = "user") => {
+  return `welcome ${name}`;
+};
 
-// console.log(greet("unique"));
-// console.log(greet());
+console.log(greet("unique"));
+console.log(greet());
 
 // parametrized function
 
@@ -44,23 +44,24 @@
 
 //closure function
 
-// const counter = () => {
-//   let count = 1; //local scope
-//   return () => { //count++; implicit function
-//     const increment = count + 1; // explicit function
-//     return increment;
-//   };
-// };
+const counter = () => {
+  let count = 1; //local scope
+  return () => {
+    //count++; implicit function
+    const increment = count + 1; // explicit function
+    return increment;
+  };
+};
 
-// const counterA = counter();
-// const counterB = counter();
+const counterA = counter();
+const counterB = counter();
 
-// console.log(counterA());
-// console.log(counterA());
-// console.log(counterA());
+console.log(counterA());
+console.log(counterA());
+console.log(counterA());
 
-// console.log(counterB());
-// console.log(counterB());
+console.log(counterB());
+console.log(counterB());
 
 //callback function
 
